@@ -36,14 +36,14 @@ public class Relistor_Tests_Chrome {
 		eyes.setHideScrollbars(true);
 		eyes.setStitchMode(StitchMode.CSS);
 		
-		// obtain the batch name and ID from the environment variables
+		/*// obtain the batch name and ID from the environment variables
 		String batchName = System.getenv("APPLITOOLS_BATCH_NAME");
 		String batchId   = System.getenv("APPLITOOLS_BATCH_ID");
 
 		// set the batch
 		BatchInfo batchInfo = new BatchInfo(batchName); 
 		batchInfo.setId(batchId);
-		eyes.setBatch(batchInfo);
+		eyes.setBatch(batchInfo);*/
 		
 		try {
 
